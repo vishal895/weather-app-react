@@ -1,0 +1,29 @@
+.weatherbg{
+    background: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__480.jpg");
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    color: white;
+    font-size: 700;
+}
+.weatherresultbox{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
+.weathericon{
+    width: 100px;
+    height: 100px;
+    margin-top: 2rem;
+}
+.weathercity{
+  font-size: 35px;
+}
+.weathertemp{
+  font-size: 45px;
+  font-weight: 700
+}
